@@ -1,8 +1,7 @@
 
-//Given a string s, find s longest back to the text string. You can assume that the maximum length of s is 1000.
-
-
-
+/**
+*Given a string s, find s longest back to the text string. You can assume that the maximum length of s is 1000.
+*/
 class Solution {
     public String longestPalindrome(String s) {
         Set<String> ans = new HashSet<>();
